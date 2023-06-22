@@ -1,19 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* print_line - prints line dependent on the integer k
-* or draws a straight line
-* @k : The number of '_' characters to use
-* Return: "null" cause it does not return
+* print_line - draws a straight line in the terminal
+* @k: number of times the character "_" should be printed
 */
 void print_line(int k)
 {
+if (k <= 0)
+{
+_putchar('\n');
+} else
+{
 int k;
 
-for (k = 0; k < n; k++)
+for (k = 1; k <= n; k++)
 {
 _putchar('_');
 }
 _putchar('\n');
+}
+
 }
