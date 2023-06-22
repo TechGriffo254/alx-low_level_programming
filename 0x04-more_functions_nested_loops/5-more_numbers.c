@@ -4,7 +4,7 @@
 /**
 * more_numbers - Print numbers between 0 to 14 into the next line
 *
-* Return: null
+* Return: nul
 */
 void more_numbers(void)
 {
