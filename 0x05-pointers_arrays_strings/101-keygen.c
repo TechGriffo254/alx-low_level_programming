@@ -4,9 +4,9 @@
 #include <math.h>
 
 /**
-* main - print password
+* main - display password
 *
-* Return: 0.
+* Return: 0 (succes), 1 (failure)
 */
 
 int main(void)
@@ -29,8 +29,6 @@ else
 {
 i--;
 }
-
-
 for (j = 0; j <= i; j++)
 {
 printf("%c", password[j]);
