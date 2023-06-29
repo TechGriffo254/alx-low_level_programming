@@ -1,34 +1,26 @@
 #include "main.h"
+
 /**
-* print_number - prints integers enters as parameters using putchar
-* @n: integer to print
-* Return: void
+* print_number - function that prints an integer
+* @n: integer params
+* Return: 0
 */
+
 void print_number(int n)
 {
-int power;
+unsigned int n1;
 
-power = base10(8);
+n1 = n;
 
 if (n < 0)
 {
 _putchar('-');
-n *= -1;
+n1 = -n;
 }
 
-if (n == 0)
-_putchar('0');
-
-else
+if (n1 / 10 != 0)
 {
-while (n / power == 0)
-power /= 10;
-
-while (power >= 1)
-{
-_putchar((n / power) + '0');
-n %= power;
-power /= 10;
+print_number(n1 / 10);
 }
-}
+_putchar((n1 % 10) + '0');
 }
