@@ -1,2 +1,4 @@
 #!/bin/bash
 gcc -c $CFILE
+/* this is a script 
+*/
