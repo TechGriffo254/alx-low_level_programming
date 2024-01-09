@@ -1,1 +1,1 @@
-My reame for 0x09-static_libraries
+My redme for 0x09-static_libraries
