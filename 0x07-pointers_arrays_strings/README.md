@@ -1,1 +1,1 @@
-mnore on pointers and arrays
+Vgmnore on pointers and arrays
